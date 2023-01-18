@@ -46,12 +46,13 @@ ___
    - Нет обработки неопределенностей: `"Infinity / Infinity"`, `"0 / 0"`, `"0 * Infinity"`, ...
 ___
 ## UI: 
-### Вид
+### Выбор файла
 ![Выбор файла](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-18_20-56-55.png)
 
+### Работа программы
 ![Во время работы программы](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-18_21-38-46.png)
 
-### Подробное описание кнопок
+### Описание кнопок
 
 ## Библиотеки проекта, не входяшие в ядро Java: 
 ## Описание классов: 
