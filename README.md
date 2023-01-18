@@ -1,4 +1,3 @@
-# JavaSecondCourseEnd-to-endTask
 
 **[Верхний уровень](https://github.com/KristianKuznetsov/JavaPractice)**
 
@@ -48,6 +47,10 @@ ___
 ___
 ## UI: 
 ### Вид
+![Выбор файла](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-18_20-56-55.png)
+
+![Во время работы программы](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-18_21-38-46.png)
+
 ### Подробное описание кнопок
 
 ## Библиотеки проекта, не входяшие в ядро Java: 
