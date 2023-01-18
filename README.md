@@ -73,9 +73,9 @@ ___
 ___
 
 ## Библиотеки проекта, не входяшие в ядро Java: 
-- [**`jackson-2.14.0-rc2`**](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-19_00-33-50.png) - для работы с `.json` файлами и  `json` объектами
-- [**`junit-4.13.2`**](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-19_00-33-50.png) - для работы с юнит-тестами
-- [**`javafx-sdk-19`**](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-19_00-33-50.png) - для работы с UI
+- [**`jackson-2.14.0-rc2`**](https://github.com/KristianKuznetsov/JavaSecondCourseEnd-to-endTask/tree/main/Libraries/JSON) - для работы с `.json` файлами и  `json` объектами
+- [**`junit-4.13.2`**](https://github.com/KristianKuznetsov/JavaSecondCourseEnd-to-endTask/tree/main/Libraries/Unit%20Tests) - для работы с юнит-тестами
+- [**`javafx-sdk-19`**](https://github.com/KristianKuznetsov/JavaSecondCourseEnd-to-endTask/tree/main/Libraries/JavaFX) - для работы с UI
 ___
 ## Описание классов: 
 
