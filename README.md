@@ -73,11 +73,9 @@ ___
 ___
 
 ## Библиотеки проекта, не входяшие в ядро Java: 
-- Дополнительные библиотеки
-   - у
-   - к
-   - е
-
+- [**`f`**](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-19_00-33-50.png)
+- [**`junit-4.13.2`**](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-19_00-33-50.png) - для работы с юнит-тестами
+- [**`javafx-sdk-19`**](https://github.com/KristianKuznetsov/JavaPractice/blob/main/Additional%20materials/2023-01-19_00-33-50.png) - для работы с UI
 ___
 ## Описание классов: 
 
