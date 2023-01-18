@@ -79,5 +79,33 @@ ___
 ___
 ## Описание классов проекта: 
 
+### Основной блок программы:
+- ExpressionEvaluation
 
+### Работа с файлами: (Чтение, запись, архивирование, шифрование)
+- IReader
+- Reader
+- ReaderJSON
+- ReaderTXT
+- ReaderXML
+- Encryption
+- ZIPArchiving
+
+### Вычисления:
+- ArithmeticEvaluator
+- ArithmeticParser
+- RdpCalculator
+- RdpCharacterHelper
+
+### UI:
+- HelloApplication
+
+### Вспомогательные классы:
+- TextBuilder
+- ErrorClass
+
+### Тестирование:
+- TestClass
+- testNode
+- TestWriter
 ___
