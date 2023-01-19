@@ -80,36 +80,38 @@ ___
 ## Описание классов проекта: 
 
 ### Основной блок программы:
-- ExpressionEvaluation 
+- ***ExpressionEvaluation*** 
    - **public static boolean ParenthesesCheck(String str)** - проверяет полученое математическое выражение на правильност последовательности скобок
    - **public ExpressionEvaluation(String str)** - находит математические выражения, вычисляет их и заменяет выражение на результат
 
 ### Работа с файлами: (Чтение, запись, архивирование, шифрование)
-- IReader - Интерфейс
+- ***IReader*** - Интерфейс
    - String ReadData(String nameFile) - читает текст, из файла с заданным именем
    - void WriteData(String fName, String text) - пишет текст в файл заданного имени
-      - Reader
-      - ReaderJSON
-      - ReaderTXT
-      - ReaderXML
-- Encryption
-- ZIPArchiving
+      - Reader - переопределяет ReadData и WriteData
+      - ReaderJSON - переопределяет ReadData и WriteData для файлов расширения `.json`
+      - ReaderTXT - переопределяет ReadData и WriteData для файлов расширения `.txt`
+      - ReaderXML - переопределяет ReadData и WriteData для файлов расширения `.xml`
+- ***Encryption***
+- ***ZIPArchiving***
+   - **public String Archive(String fileName)** - 
+   - **public String UnArchive(String fileName)** - 
 
 ### Вычисления:
-- ArithmeticEvaluator
-- ArithmeticParser
-- RdpCalculator
-- RdpCharacterHelper
+- ***ArithmeticEvaluator***
+- ***ArithmeticParser***
+- ***RdpCalculator***
+- ***RdpCharacterHelper***
 
 ### UI:
-- HelloApplication
+- ***HelloApplication***
 
 ### Вспомогательные классы:
-- TextBuilder
-- ErrorClass
+- ***TextBuilder***
+- ***ErrorClass***
 
 ### Тестирование:
-- TestClass
-- testNode
-- TestWriter
+- ***TestClass***
+- ***testNode***
+- ***TestWriter***
 ___
