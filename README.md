@@ -98,8 +98,9 @@ ___
       - **Для кодировки ит декодировки используется class Base64** 
 
 - ***ZIPArchiving***
-   - **public String Archive(String fileName)** - 
-   - **public String UnArchive(String fileName)** - 
+   - **public String Archive(String fileName)** - архивирует файл имя которого передано, возращает новое имя файла
+   - **public String UnArchive(String fileName)** - разархивирует файл имя которого передано, возращает новое имя файла
+      - **Для архивации используется ZipInputStream и ZipOutputStream** 
 
 ### Вычисления:
 - ***ArithmeticEvaluator***
