@@ -95,7 +95,7 @@ ___
 - ***Encryption***
    - **public String Encode(String name)** - кодирует файл имя которого передано, возращает новое имя файла
    - **public String Decode(String name)** - декодирует файл имя которого передано, возращает новое имя файла
-Для кодировки ит декодировки используется class Base64 
+      - **Для кодировки ит декодировки используется class Base64** 
 
 - ***ZIPArchiving***
    - **public String Archive(String fileName)** - 
