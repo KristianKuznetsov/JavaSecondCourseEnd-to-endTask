@@ -130,9 +130,9 @@ ___
 При доработке парсинга в классе ***ExpressionEvaluation***, могут сразу поддерживаться в программе
 
 
-### UI:
-- ***HelloApplication***
-
+### UI класс:
+- ***HelloApplication*** - 
+ 
 ### Вспомогательные классы:
 - ***TextBuilder***
 - ***ErrorClass***
