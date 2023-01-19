@@ -80,14 +80,18 @@ ___
 ## Описание классов проекта: 
 
 ### Основной блок программы:
-- ExpressionEvaluation
+- ExpressionEvaluation 
+   - **public static boolean ParenthesesCheck(String str)** - проверяет полученое математическое выражение на правильност последовательности скобок
+   - **public ExpressionEvaluation(String str)** - находит математические выражения, вычисляет их и заменяет выражение на результат
 
 ### Работа с файлами: (Чтение, запись, архивирование, шифрование)
-- IReader
-- Reader
-- ReaderJSON
-- ReaderTXT
-- ReaderXML
+- IReader - Интерфейс
+   - String ReadData(String nameFile) - читает текст, из файла с заданным именем
+   - void WriteData(String fName, String text) - пишет текст в файл заданного имени
+      - Reader
+      - ReaderJSON
+      - ReaderTXT
+      - ReaderXML
 - Encryption
 - ZIPArchiving
 
