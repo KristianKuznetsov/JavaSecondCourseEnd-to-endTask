@@ -107,7 +107,7 @@ ___
 - ***ArithmeticParser***
 - ***RdpCalculator***
 - ***RdpCharacterHelper***
-__
+___
 - **Данное вычислительное ядро поддерживает два метода вычислений:**
 Вычислить выражение с использованием алгоритма сортировочной станции **(Используется в коде)**
 ```java
@@ -120,7 +120,7 @@ ArithmeticEvaluator.evaluate(expression);
 RdpCalculator.evaluate(expression);
 //public static String evaluate(String expression);
 ```
-__
+___
 
 ### UI:
 - ***HelloApplication***
