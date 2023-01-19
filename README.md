@@ -108,6 +108,19 @@ ___
 - ***RdpCalculator***
 - ***RdpCharacterHelper***
 
+- **Данное вычислительное ядро не является родным**
+To Evaluate an expression using shunting-yard algorithm use Алгоритм сортировочной станции
+```java
+ArithmeticEvaluator.evaluate(expression);
+// public static String evaluate(String expression)
+```
+
+To Evaluate an expression using Recursive Descent Parser use Метод рекурсивного спуска 
+```java
+RdpCalculator.evaluate(expression);
+//public static String evaluate(String expression)
+```
+
 ### UI:
 - ***HelloApplication***
 
