@@ -86,12 +86,12 @@ ___
 
 ### Работа с файлами: (Чтение, запись, архивирование, шифрование)
 - ***IReader*** - Интерфейс
-   - String ReadData(String nameFile) - читает текст, из файла с заданным именем
-   - void WriteData(String fName, String text) - пишет текст в файл заданного имени
-      - Reader - переопределяет ReadData и WriteData
-      - ReaderJSON - переопределяет ReadData и WriteData для файлов расширения `.json`
-      - ReaderTXT - переопределяет ReadData и WriteData для файлов расширения `.txt`
-      - ReaderXML - переопределяет ReadData и WriteData для файлов расширения `.xml`
+   - **String ReadData(String nameFile)** - читает текст, из файла с заданным именем
+   - **void WriteData(String fName, String text)** - пишет текст в файл заданного имени
+      - **Reader** - переопределяет ReadData и WriteData
+      - **ReaderJSON** - переопределяет ReadData и WriteData для файлов расширения `.json`
+      - **ReaderTXT** - переопределяет ReadData и WriteData для файлов расширения `.txt`
+      - **ReaderXML** - переопределяет ReadData и WriteData для файлов расширения `.xml`
 - ***Encryption***
 - ***ZIPArchiving***
    - **public String Archive(String fileName)** - 
