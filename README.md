@@ -160,7 +160,29 @@ ErrorClass.unknownError("12*");
       
 
 ### Тестирование:
-- ***TestClass***
+- ***TestClass*** - класс содержащий все тесты приложения
+   - **Список тестов:**
+___
+      - trueVoidTestBracket
+      - trueSimpleTestBracket
+      - falseSimpleTestRightBracket
+      - falseSimpleTestLeftBracket
+      - bracketFileTest
+___
+      - parsingFileTest
+___
+      - testBracketError
+      - testOverflowError
+      - testDivideByZeroError
+___
+      - ArithmeticEvaluatorTest
+      - RdpCalculatorTest
+___
+      - ArchiveTest
+      - UnArchiveTest
+      - EncryptionTest
+      - ReadTxtTest
+   
 - ***testNode***
 - ***TestWriter***
 ___
