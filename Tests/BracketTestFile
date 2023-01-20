@@ -1,0 +1,6 @@
+(tttt) -> true
+((y(yyy)) -> false
+(r(r(r(r)))) -> true
+hg(fsd)(fxg)xfg(fg(gf(tt)ggf)fgd) -> true
+hg(fsd)(fxg)xfg(fg(gf((tt)ggf)fgd) -> false
+(()) -> true
