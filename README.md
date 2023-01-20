@@ -131,11 +131,33 @@ ___
 
 
 ### UI класс:
-- ***HelloApplication*** - 
+- ***HelloApplication*** - Отвечает за создание UI и обработку всех кнопок. Из-за простоты UI, к сожалению все в одном классе.
  
 ### Вспомогательные классы:
 - ***TextBuilder***
+   - **public static String generateTextWithWidth(ArrayList<String> list, int width);** - форматирует массив строк в текст заданной ширины *(грубое форматирование)*
+   
 - ***ErrorClass***
+   - **public static String bracketError(String str);** - преобразовывает математическое выражение с ошибкой последовательности скобок к новому виду
+      - Используется
+   - **public static String overflowError(String str);** - преобразовывает математическое выражение с ошибкой переполнения типа к новому виду
+      - Не используется
+   - **public static String divideByZeroError(String str);** - преобразовывает математическое выражение с ошибкой деления на ноль к новому виду
+      - Используется
+   - **public static String unknownError(String str);** -  преобразовывает математическое выражение с неотслеживаемой ошибкой к новому виду
+      - Используется
+      
+```java
+ErrorClass.bracketError("(66 + 17))");
+//[ Bracket validation error in expression { "(66 + 17))" } ]
+
+ErrorClass.divideByZeroError("9 / 0");
+//[ Division by zero error in expression { "9 / 0" } ]
+
+ErrorClass.unknownError("12*");
+//[ Undefined error in expression { "12*" } ]
+```
+      
 
 ### Тестирование:
 - ***TestClass***
