@@ -193,6 +193,8 @@ ___
       - EncryptionTest
       - ReadTxtTest
 ___
+  
+   **Данные два класса помогают подготовить файлы для тестирования**
    
 - ***testNode***
 - ***TestWriter***
